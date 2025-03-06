@@ -66,12 +66,9 @@ try:
             print(f"Error scraping {url}: {str(e)}")
             return None
 
-    # List of disaster relief URLs to scrape
+    # List of disaster relief URLs to scrape - using only one URL now
     disaster_relief_urls = [
         "https://www.ca.gov/lafires/",
-        "https://www.ready.gov/wildfires",
-        "https://www.redcross.org/get-help/disaster-relief-and-recovery-services.html",
-        "https://www.caloes.ca.gov/office-of-the-director/operations/response-operations/",
     ]
 
     # Create the schema and populate with data
